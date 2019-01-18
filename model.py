@@ -508,6 +508,9 @@ class EditableGAN(object):
         ##################################
         # Latent space walking partially #
         ##################################
+        ##################
+        # No meaning ... #
+        ##################
         if latent_partial:
             # Partially walking along the latent space
             unit = 8
