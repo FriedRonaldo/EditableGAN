@@ -62,7 +62,7 @@ class EditableGAN(object):
         self.y_a = tf.cast(self.y_a, tf.float32)
 
         G = SNGenerator('generator', image_shape=self._image_shape, batch_size=self._batch_size, norm='batch', activation='lrelu')
-        D = SNDiscriminator('discriminator', batch_size=self._batch_size, sn=False, norm='group', activation='lrelu')
+        D = SNDiscriminator('discriminator', batch_size=self._batch_size, sn=False, norm=None, activation='lrelu')
         Cn = V3CondConnector('connector', batch_size=self._batch_size, latent_size=self._latent_size, norm='group', activation='lrelu')
         C = V3Classifier('classifier', batch_size=self._batch_size, num_labels=self._num_labels, norm='batch', activation='lrelu')
 
