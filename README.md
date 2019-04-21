@@ -5,6 +5,8 @@ tensorflow implementation of "Editable GAN" ( 128 by 128 )
     * tensorflow 1.8
     * scipy
     * tensorpack for MNIST 
+    * tqdm
+    * python 3.6
     
 * Files
     * compare_ops
@@ -22,20 +24,16 @@ tensorflow implementation of "Editable GAN" ( 128 by 128 )
    * ops.py
       * Just ops ...
       
-   * Requirement
-      * tensorflow 1.8
-      * python 3.6
-      * tqdm
-   * DATASET ( for celebA )
-      * for example,
-      ```
-        data
-         |--- img_blah_blah ( ex img_celeba_128_center )
-         |--- img_align_celeba
-                     | ---- 000001.png ( or jpg.. change the code )
-                     | ---- 000002.png ...
-         |--- list_attr_celeba.txt
-        GANs
-         |--- sndcgan_celebA.py
-      ```
-      * Then, execute : python main.py --gpu 1 --img_dir ../data/img_align_celeba --txt_dir ../data/list_attr_celeba.txt
+* DATASET ( for celebA )
+   * for example,
+   ```
+     data
+      |--- img_blah_blah ( ex img_celeba_128_center )
+      |--- img_align_celeba
+                  | ---- 000001.png ( or jpg.. change the code )
+                  | ---- 000002.png ...
+      |--- list_attr_celeba.txt
+     GANs
+      |--- sndcgan_celebA.py
+   ```
+   * Then, execute : python main.py --gpu 1 --img_dir ../data/img_align_celeba --txt_dir ../data/list_attr_celeba.txt
