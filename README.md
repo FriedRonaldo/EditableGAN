@@ -15,7 +15,7 @@ tensorflow implementation of "Editable GAN" ( 128 by 128 )
        * experiment on mnist with rotation or color
     * main.py / model.py
        * experiment on celebA
-       * CelebA.py
+    * data_loader.py
       * Dataset implementation for "celebA".
       * Read image and label - label can be determined ( change "atts" in [a-z]{2-4}gan_celebA not "att_dict")
       * three modes - val : 10,000 / test : 10,000 / train : others
