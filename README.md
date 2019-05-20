@@ -33,7 +33,5 @@ tensorflow implementation of "Editable GAN" ( 128 by 128 )
                   | ---- 000001.png ( or jpg.. change the code )
                   | ---- 000002.png ...
       |--- list_attr_celeba.txt
-     GANs
-      |--- sndcgan_celebA.py
    ```
    * Then, execute : python main.py --gpu 1 --img_dir ../data/img_align_celeba --txt_dir ../data/list_attr_celeba.txt
