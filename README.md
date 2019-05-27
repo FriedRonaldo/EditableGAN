@@ -1,5 +1,5 @@
 # EditableGAN
-tensorflow implementation of "Editable GAN" ( 128 by 128 )
+tensorflow implementation of "Editable GAN" ( 128 by 128 )  
 [Editable Generative Adversarial Networks: Generating and Editing Faces Simultaneously](https://arxiv.org/abs/1807.07700)
 
 * Requirement
