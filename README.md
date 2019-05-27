@@ -10,7 +10,7 @@ tensorflow implementation of "Editable GAN" ( 128 by 128 )
     
 * Files
     * compare_ops
-       * ops.py from https://github.com/google/compare_gan
+       * ops.py from https://github.com/google/compare_gan (old version of compare_gan)
     * mnist_main.py / mnist_model.py
        * experiment on mnist with rotation or color
     * main.py / model.py
